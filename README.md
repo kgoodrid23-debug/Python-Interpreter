@@ -4,9 +4,11 @@ Run the program from the command line:
 
 ```bash
 python interpreter.py
+```
 
 Then enter these commands into the REPL:
 
+```
 >>> x = 5;
 >>> y = 2;
 >>> if x > y then x + y else x - y;
@@ -15,3 +17,4 @@ Then enter these commands into the REPL:
 >>> x;
 10
 >>> quit
+```

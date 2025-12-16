@@ -1,6 +1,6 @@
 This project extends a custom mini-interpreter with exception handling support, including raise, try/catch, and proper exception propagation. The interpreter is implemented in Python.
 
-Features Implemented
+Features Implemented:
 Exception Handling
 
 raise expr interrupts normal execution and throws a runtime exception
@@ -82,19 +82,19 @@ Type errors for invalid indexing
 
 All Studio 6 acceptance tests pass.
 
-▶️ Running the Interpreter
+Running the Interpreter:
 REPL Mode
 python studio6.py
 
-Run Tests
+Run Tests:
 python -m pytest tests_studio6.py -q
 
-Project Structure
+Project Structure:
 studio6.py          # Lexer, parser, AST, interpreter
 tests_studio6.py    # Pytest test suite for Studio 6
 README.md           # Project documentation
 
-Extra Notes
+Extra Notes:
 
 print() outputs values but does not return them (by design).
 
